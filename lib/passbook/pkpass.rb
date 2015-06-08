@@ -1,8 +1,3 @@
-require 'digest/sha1'
-require 'openssl'
-require 'zip'
-require 'base64'
-
 module Passbook
   class PKPass
     attr_accessor :pass, :manifest_files, :signer
